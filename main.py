@@ -1,14 +1,14 @@
-b =int(input ("enter a number"))
-a =input ("enter * / - + ")
-c = int(input("enter a second number"))
+num1 =int(input ("enter a number"))
+operator =input ("enter * / - + ")
+num2 = int(input("enter a second number"))
 
-if a == "*":
-  print (b * c)
-elif a == "/":
-  print (b / c)
-elif a == "-":
-  print (b - c)
-elif a == "+":
-  print (b + c)
+if operator == "*":
+  print (num1 * num2)
+elif operator == "/":
+  print (num1 / num2)
+elif operator == "-":
+  print (num1 - num2)
+elif operator == "+":
+  print (num1 + num2)
 else:
   print ("wrong input")
